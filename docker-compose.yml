@@ -18,13 +18,13 @@ services:
       
   blogpessoal-api:
     restart: always
-    build: ./blogpessoal-api
-    working_dir: /blogpessoal-api
+    build: ./blogPessoal-api
+    working_dir: /blogPessoal-api
     environment: 
       TZ: America/Sao_Paulo
       SPRING_BOOT_ENVIRONMENT: Production
     volumes: 
-      - ./blogpessoal-api:/blogpessoal-api
+      - ./blogPessoal-api:/blogPessoal-api
       - ~/.m2:/root/.m2
     ports: 
       - "9000:8080"
