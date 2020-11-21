@@ -39,6 +39,6 @@ public class SwaggerConfig {
 	private Contact contact(){
 		return new Contact("Mateus Ribeiro",
 				"https://github.com/MateusBCC020",
-				"Programador full stack Angular Spring");
+				"Programador full stack Angular e Spring");
 	}
 }
