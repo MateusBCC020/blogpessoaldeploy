@@ -1,3 +1,6 @@
+//Esta classe permite consultar a API através do Swagger, para maior facilidade 
+//De visualização do back end
+
 package org.mateus.blogPessoal.config;
 
 import org.springframework.context.annotation.Bean;
